@@ -1,0 +1,50 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Pytest / coverage
+htmlcov/
+.coverage
+*.cover
+.cache
+nosetests.xml
+coverage.xml
+*.pytest_cache/
+
+# MyPy type checking
+.mypy_cache/
+
+# VS Code / PyCharm / IDE 관련 파일
+.vscode/
+.idea/
+*.iml
+
+# Secrets / 환경 변수 파일
+.env
+*.env
+config.json
+secrets.json
+
+# Docker / 컨테이너 관련
+*.dockerfile
