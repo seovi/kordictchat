@@ -109,8 +109,8 @@ async def startup_event():
     print("저장된 벡터 검색 데이터가 없습니다. 데이터 처리를 시작합니다.")
     
     # 임베딩 파일 경로 확인
-    csv_file = "dictionary_with_embeddings.csv"
-    embeddings_file = "dictionary_with_embeddings_embeddings.npy"
+    csv_file = "/Data/dictionary_with_embeddings.csv"
+    embeddings_file = "/Data/dictionary_with_embeddings_embeddings.npy"
     
     if not os.path.exists(csv_file):
         # 임베딩이 포함된 CSV 파일이 없는 경우, 원본 CSV에서 임베딩 생성 필요
