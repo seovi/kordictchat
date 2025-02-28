@@ -1,12 +1,14 @@
-# scikit-learn 기반 사전 챗봇 프로젝트
+# RAG 한국어 사전 챗봇 프로젝트
 
-이 프로젝트는 scikit-learn을 사용한 벡터 검색과 임베딩 모델을 통해 사전 데이터를 검색하고 질의에 응답하는 시스템입니다.
+한국어 정확도 있는 단어 검색과 뜻을 생성하기 위한 챗봇 프로젝트.
+벡터 검색과 임베딩 모델을 통해 사전 데이터를 검색하고 질의에 응답하는 시스템입니다.
 
 ## 프로젝트 구성
+![이미지 설명](./Architecture.png)
 
-- `generate_embeddings.py`: 사전 CSV 파일을 읽어 임베딩을 생성하는 스크립트
-- `sklearn_vector_search.py`: scikit-learn을 활용한 벡터 검색 엔진 구현
-- `app.py`: FastAPI 기반 웹 API 서버
+- FastAPI 기반 웹 API 서버
+- 사전 CSV 파일을 읽어 임베딩을 생성하는 스크립트
+- scikit-learn을 활용한 벡터 검색 엔진 구현
 
 ## 설치 방법
 
